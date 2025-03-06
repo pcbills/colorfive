@@ -440,6 +440,34 @@
                 padding: 15px 30px;
             }
         }
+        .play-other-button {
+            background-color: #9C27B0;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            font-family: var(--font-family);
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: background-color 0.2s;
+            margin-top: 20px;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .play-other-button:hover {
+            background-color: #7B1FA2;
+        }
+
+        /* Center the button container */
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -477,6 +505,7 @@
             <button id="new-puzzle-button" class="control-button">New Puzzle</button>
             <button id="check-button" class="control-button">Check for match</button>
             <button id="show-answer-button" class="control-button">Show Answer</button>
+            <a href="https://playfivegames.com" class="play-other-button">Play other fivegames!</a>
         </div>
     </div>
 
